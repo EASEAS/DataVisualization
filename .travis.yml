@@ -1,0 +1,8 @@
+language: python
+python: "3.6"
+cahce: pip
+before_install:
+    - pip install matplotlib
+    - pip install pandas
+script: 
+    - python hearing_Data_Analysor.py < input.io
