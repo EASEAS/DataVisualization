@@ -6,7 +6,7 @@ Created on Tue Jul 24 16:25:59 2018
 """
 import matplotlib.pyplot as plt
 import pandas as pd
-data = pd.read_csv('C:/Users/ErikS/Downloads/Sensor_record_2018_3.csv')
+data = pd.read_csv(r'Sensor_record_2018_3.csv')
 
 sound_levels = list(data['SOUND LEVEL (dB)']  + 30) # addition is in dB for calibration purposes
 
