@@ -9,4 +9,4 @@ install:
   - pip install pycodestyle
 # command to run tests
 script:
-  - pycodestyle Sleep_Tracking.py
+  - pycodestyle hearing_Data_Analysor.py
